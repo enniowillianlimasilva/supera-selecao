@@ -5,7 +5,7 @@ Passos:
 
 1 - Baixe o projeto, coloque dentro do seu servidor e execute os comandos: "composer install" e "npm install"
 
-2 - Crie o banco de dados com o nome "supera" e configure o arquivo .env de acordo com suas definições de usuário e senha 
+2 - Crie o banco de dados com o nome "supera", configure o arquivo .env de acordo com suas definições de usuário e senha. Gere a chave com o comando: "php artisan key:generate"
 
 3 - Rode o script estados.sql e cidades.sql respectivamente dentro da base (supera) 
 
